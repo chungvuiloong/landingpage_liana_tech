@@ -5,68 +5,332 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Technologies</title>
+        <title>Liana Technologies Oy</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e754c0d0c9.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+      <main>
+        <nav class="py-2 border-bottom bg-liana-green">
+          <div class="container d-flex flex-wrap" style="justify-content: flex-end">
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link link-light px-2">News</a></li>
+              <li class="nav-item "><a href="#" class="nav-link link-light px-2">Intranet</a></li>
+              <li class="nav-item ms-2"><select class="form-select" aria-label="Default select example" >
+                <option selected>In English</option>
+                <option value="1">In Suomi</option>
+                <option value="2">In Svenska</option>
+              </select></li>
+            </ul>
+          </div>
         </nav>
-        <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
-            <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
-                <!--  <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
-                <p class="text-white-50 mb-0">Landing Page Template</p> -->
+        <header class="p-4 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="px-4">
+                <img src="/assets/liana-technologies-logos-ide64MW6Tj.png" alt="Bootstrap" width="150" >
+              </a>
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-muted">Company</a></li>
+                <li><a href="#" class="nav-link px-2 text-muted">Products</a></li>
+                <li><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+              </ul>
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+              </form>
+              <button class="btn text-white" type="submit" style="background: var(--liana-green)">Search</button>
             </div>
+          </div>
         </header>
+      </main>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-image bg-image-full img-fluid"  style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');">
+          <div class="container text-center my-5">
+              <h1 class="text-white fw-bolder display-4 fw-lighter lato_font" >Software fueling digital marketing</h1>
+              <button class="btn text-white my-5" type="submit" style="background: var(--liana-green)">Learn more</button>
+          </div>
+        </header>
+
+
         <!-- Content section-->
-        <section class="py-5">
+        <section>
+          <div class="box">
             <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Full Width Backgrounds</h2>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+              <div class="row row-cols-1 row-cols-md-3 row-cols-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center ">
+                  <div class="box-column ">
+                    <div class="box-header text-light">Company</div>
+                  </div>
+                </div>
+
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                  <div class="box-column" >
+                    <div class="box-header text-light" >Products</div>
+                  </div>
+                </div>
+
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                  <div class="box-column">
+                    <div class="box-header text-light">Contact us</div>
+                  </div>
+                </div>
+
+              </div> <!-- End of row -->
+            </div> <!-- End of container -->
+          </div>  <!-- End of box -->
+        </section>
+
+
+
+        <section>
+          <i class="bi bi-briefcase-fill" style="font-size: 2rem; color: var(--liana-green);" ></i>
+          <i class="bi bi-emoji-smile" style="font-size: 2rem; color: var(--liana-green);"></i>
+          <i class="bi bi-globe-americas" style="font-size: 2rem; color: var(--liana-green);"></i>
+        </section>
+
+        <!-- References -->
+        <section>
+          <div class="container">
+            <div class="thumbnail center well well-small text-center">
+              <article class="fs-6 mt-5">
+                <h3>References</h3>
+              </article>
+            </div>
+            <div class="row row row-cols-1 row-cols-lg-3 row-cols-xl-3 g-4 pb-6 text-center">
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://logo-download.com/images/bosch23.png" class="img-fluid mt-1" alt="Robert Bosch Logo" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default">
+                    <div class="card-body">
+                      <h5 class="card-title">Robert Bosch</h5>
+                      <p class="card-text fs-6 text-muted">Bosch is a multinational engineering and electronics company.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://searchlogovector.com/wp-content/uploads/2018/07/the-body-shop-logo-vector.png" class="img-fluid mt-1" alt="The Body Shop" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default">
+                    <div class="card-body">
+                      <h5 class="card-title">The Body Shop</h5>
+                      <p class="card-text fs-6 text-muted">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://logos-download.com/wp-content/uploads/2019/07/Lapland_Hotels_Logo.png" class="img-fluid mt-1" alt="Lapland Hotel" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default">
+                    <div class="card-body">
+                      <h5 class="card-title">Lapland Hotels</h5>
+                      <p class="card-text fs-6 text-muted">Lapland Hotels in the largest and the most diverse hotel chain in Lapland.</p>
                     </div>
                 </div>
-            </div>
+              </div>
+
+            </div> <!-- End of Row-->
+          </div> <!-- End of container-->
         </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
-        </div>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Engaging Background Images</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+
+        <section class="py-4" style="background-color: var(--bs-gray-300)">
+          <div class="container ">
+            <h3 class="text-center pb-3">Latest News</h3>
+              <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pb-4" >
+                <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted fs-6">27.07.2016</h6>
+                      <p class="card-text fs-5s " style="line-height: 1.2;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted fs-6">28.01.2016</h6>
+                      <p class="card-text fs-5s " style="line-height: 1.2;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 text-muted fs-6">27.07.2016</h6>
+                      <p class="card-text fs-5s " style="line-height: 1.2;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+          </div> <!-- End of container -->
+        </section>
+
+         <!-- References -->
+         <section>
+          <div class="container">
+            <div class="thumbnail center well well-small text-center">
+              <article class="fs-6 mt-4">
+                <h3>References</h3>
+              </article>
+            </div>
+            <div class="row row row-cols-2 row-cols-lg-4 row-cols-xl-4 g-4 pt-4 text-center">
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://logo-download.com/images/bosch23.png" class="img-fluid mt-1" alt="Robert Bosch Logo" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default" >
+                    <div class="card-body">
+                      <h5 class="card-title">Robert Bosch</h5>
+                      <p class="card-text fs-6 text-muted">Bosch is a multinational engineering and electronics company.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://searchlogovector.com/wp-content/uploads/2018/07/the-body-shop-logo-vector.png" class="img-fluid mt-1" alt="The Body Shop" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default">
+                    <div class="card-body">
+                      <h5 class="card-title">The Body Shop</h5>
+                      <p class="card-text fs-6 text-muted">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <div class="h-auto">
+                    <div class="px-4 py-4" style="height: 8rem;">
+                      <img src="https://logos-download.com/wp-content/uploads/2019/07/Lapland_Hotels_Logo.png" class="img-fluid mt-1" alt="Lapland Hotel" style='height: 100%; width: 100%; object-fit: contain'>
+                    </div>
+                    <hr class="hr_default">
+                    <div class="card-body">
+                      <h5 class="card-title">Lapland Hotels</h5>
+                      <p class="card-text fs-6 text-muted">Lapland Hotels in the largest and the most diverse hotel chain in Lapland.</p>
                     </div>
                 </div>
+              </div>
             </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="h-auto">
+                  <div class="px-4 py-4" style="height: 8rem;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikea_logo.svg" class="img-fluid mt-1" alt="IKEA logo" style='height: 100%; width: 100%; object-fit: contain'>
+                  </div>
+                  <hr class="hr_default">
+                  <div class="card-body">
+                    <h5 class="card-title">IKEA</h5>
+                    <p class="card-text fs-6 text-muted">IKEA is a multinational furniture store.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End of container-->
         </section>
+
+        <hr class="mt-6 hr_default">
+        <!-- Subscribe -->
+        <section class="pt-2 pb-4 mb-3">
+          <div class="container">
+            <div class="row">
+              <div class="thumbnail center well well-small text-center">
+                <article class="fs-6 mt-2">
+                  <h3>Subscribe to our newsletter</h3>
+                  <p class="my-3 text-muted">Follow our story and get the latest promotional <br> news about our products and events. </p>
+                </article>
+                <form class="row g-2 justify-content-center">
+                  <div class="col-auto">
+                    <label for="email" class="visually-hidden">Email</label>
+                    <input type="email" class="form-subscribe" id="inputPassword2" placeholder="Your email address">
+                  </div>
+                  <div class="col-auto">
+                    <button class="btn text-white mx-1" type="submit" style="background: var(--liana-green)">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        <footer class="mt-2">
+          <nav class="pt-2 pb-5" style="background-color: black">
+            <!-- Upper Footer -->
+            <div class="container">
+              <ul class="nav d-flex flex-wrap justify-content-between align-items-center py-3 my-1">
+                <p class="col-6 col-sm-6 col-md-6 mb-0 text-white">Liana Technologies</p>
+                <ul class="col-6 col-sm-6 col-md-6 nav justify-content-end">
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-white fs-6">Company</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-white fs-6">Products</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-white fs-6">Contact Us</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-white fs-6">News</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-white fs-6">Intranet</a></li>
+                </ul>
+              </ul>
+            </div>
+            <!-- Bottom Footer-->
+            <div class="container">
+              <ul class="nav d-flex flex-wrap justify-content-between align-items-end py-3 mb-1">
+                <div class="col-6 col-sm-6 col-md-6 text-white d-flex align-items-end">
+                  <div class="me-5">
+                    <div><b>Sales and inquiries</b></div>
+                    <div>Email: sales@lianatech.com</div>
+                    <div>Phone: +358 10 387 7053</div>
+                  </div>
+                  <div>
+                    <button class="btn text-white fs-6" type="submit" style="background: var(--liana-green)">Contact us</button>
+                  </div>
+                </div>
+                <ul class="col-6 col-sm-6 col-md-6 nav justify-content-end">
+                  <div class="d-flex align-items-end">
+                    <span class="fa-stack small ms-1" style="color: var(--liana-green);">
+                      <i class="fa-solid fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <span class="fa-stack small ms-1" style="color: var(--liana-green);">
+                      <i class="fa-solid fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack small ms-1" style="color: var(--liana-green);">
+                      <i class="fa-solid fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </div>
+                </ul>
+              </ul>
+            </div>
+          </nav>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
