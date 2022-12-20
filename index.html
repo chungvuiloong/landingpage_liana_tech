@@ -274,13 +274,26 @@
                     <input type="email" class="form-subscribe" id="inputPassword2" placeholder="Your email address">
                   </div>
                   <div class="col-auto">
-                    <button class="btn text-white mx-1" type="submit" style="background: var(--liana-green)">Subscribe</button>
+                    <button class="btn text-white mx-1" id="subscribe_button" type="button" style="background: var(--liana-green)" >Subscribe</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
         </section>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content" style="width: 80%;">
+            <span class="close" style="  float: right;">&times;</span>
+            <p>Some text in the Modal..</p>
+            <p>Some text in the Modal..</p>
+            <p>Some text in the Modal..</p>
+            <p>Some text in the Modal..</p>
+          </div>
+
+        </div>
 
         <!-- Footer-->
         <footer class="mt-2">
@@ -339,6 +352,13 @@
         </footer>
 
         <!-- Bootstrap core JS-->
+        <script>
+          function myFunction() {
+            console.log("Meow");
+          }
+
+
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
