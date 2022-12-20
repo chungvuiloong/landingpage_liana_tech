@@ -14,9 +14,9 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 
 ## Technologies added:
 - email input filter => filters input that aren't email syntax. If correct email is given, input bar turns green with envy.
-- ~subscribe button / modal => if input passes email filter, it opens modal menu and thanks user for registering.~
+- ~subscribe button / modal => if input passes email filter, it opens modal menu and thanks user for registering.~ [Updated]
 - subscribe button / sweetalert modal => if input passes email filter, it opens sweet alert modal menu and thanks user for registering.
 - animated numbers - Statistics number of company increments over time.
 - feed rss mapping via feednami.
 - Mobiel reponsiveness.
-- ~Parallax effect for "Latest News" section.~
+- ~Parallax effect for "Latest News" section.~ [Noy yet implemented]
