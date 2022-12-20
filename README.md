@@ -7,6 +7,11 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 #### 2. cd landingpage
 #### 3. open index.html 
 
-Technologies added:
+
+## Hosted via vercel:
+- https://lianatechnologylandingpage.vercel.app/
+
+
+## Technologies added:
 - email input filter => filters input that aren't email syntax. If correct email is given, input bar turns green with envy.
 - subscribe button => if input passes email filter, it opens modal menu and thanks user for registering.
