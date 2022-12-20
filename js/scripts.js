@@ -21,28 +21,20 @@
             let email_input_value = document.querySelector("#email_input").value;
             let email_input = document.querySelector("#email_input");
 
-            if (!email_input_value.match(email_filter)) {
-                wrong_email_input.innerHTML = "Please check your email for missing @ and ."
-                email_input.setAttribute("class", "form-subscribe_invalid");
-            }
 
-            else if (!email_input_value) {
-                wrong_email_input.innerHTML = "empty"
-                email_input.setAttribute("class", "form-subscribe");
-                console.log("empty");
-            }
-
-            else if (email_input_value.match(email_filter)) {
+            if (email_input_value.match(email_filter)) {
                 wrong_email_input.innerHTML = ""
                 email_input.setAttribute("class", "form-subscribe_valid");
             }
         };
 
           function thank_you () {
+            
             let email_input = document.querySelector("#email_input");
             if (email_input.value.match(email_filter)) {
                 modal.style.display = "block";
                 email_input.value = "";
+                email_input.setAttribute("class", "form-subscribe");
             }
           }
 
