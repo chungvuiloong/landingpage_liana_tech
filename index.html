@@ -271,10 +271,11 @@
                 <form class="row g-2 justify-content-center">
                   <div class="col-auto">
                     <label for="email" class="visually-hidden">Email</label>
-                    <input type="email" class="form-subscribe" id="inputPassword2" placeholder="Your email address">
+                    <input type="email" class="form-subscribe" id="email_input" placeholder="Your email address"  onblur="email_verification()">
+                    <div id="wrong_email_input"></div>
                   </div>
                   <div class="col-auto">
-                    <button class="btn text-white mx-1" id="subscribe_button" type="button" style="background: var(--liana-green)" >Subscribe</button>
+                    <button class="btn text-white mx-1" id="subscribe_button" type="button" style="background: var(--liana-green)" onclick="thank_you()" >Subscribe</button>
                   </div>
                 </form>
               </div>
@@ -285,12 +286,10 @@
         <!-- The Modal -->
         <div id="myModal" class="modal">
           <!-- Modal content -->
-          <div class="modal-content" style="width: 80%;">
-            <span class="close" style="  float: right;">&times;</span>
-            <p>Some text in the Modal..</p>
-            <p>Some text in the Modal..</p>
-            <p>Some text in the Modal..</p>
-            <p>Some text in the Modal..</p>
+          <div class="modal-content " style="width: 80%;">
+            <div class="close" >&times;</div>
+            <div class="text-center display-6 my-4">Thank you for registering to our newsletter!</div>
+
           </div>
 
         </div>
