@@ -8,7 +8,7 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 #### 3. open index.html 
 
 
-## Hosted via vercel:
+## Hosted/ Deployed via vercel:
 - https://lianatechnologylandingpage.vercel.app/
 
 
