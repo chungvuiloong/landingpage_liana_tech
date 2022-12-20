@@ -27,24 +27,17 @@
             }
         };
 
-          function thank_you () {
-            let email_input = document.querySelector("#email_input");
-            if (email_input.value.match(email_filter)) {
-                modal.style.display = "block";
-                email_input.value = "";
-                email_input.setAttribute("class", "form-subscribe");
-            }
-          }
+        function sweet () {
+          let email_input = document.querySelector("#email_input");
+          if (email_input.value.match(email_filter)) {
 
-          // When the user clicks on <span> (x), close the modal
-          span.onclick = function() {
-            modal.style.display = "none";
-            email_input_value ="";
+            Swal.fire({
+              icon: 'success',
+              title: 'Thank you for registering to our newsletter',
+              showConfirmButton: false,
+              timer: 1500
+            })
+            email_input.value = "";
+              email_input.setAttribute("class", "form-subscribe");
           }
-
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-            if (event.target == modal) {
-              modal.style.display = "none";
-            }
-          }
+        };
