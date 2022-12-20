@@ -21,7 +21,6 @@
             let email_input_value = document.querySelector("#email_input").value;
             let email_input = document.querySelector("#email_input");
 
-
             if (email_input_value.match(email_filter)) {
                 wrong_email_input.innerHTML = ""
                 email_input.setAttribute("class", "form-subscribe_valid");
@@ -29,7 +28,6 @@
         };
 
           function thank_you () {
-            
             let email_input = document.querySelector("#email_input");
             if (email_input.value.match(email_filter)) {
                 modal.style.display = "block";
