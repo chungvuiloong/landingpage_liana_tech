@@ -18,5 +18,5 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 - subscribe button / sweetalert modal => if input passes email filter, it opens sweet alert modal menu and thanks user for registering.
 - animated numbers - Statistics number of company increments over time.
 - feed rss mapping via feednami.
-- Mobiel reponsiveness.
+- Mobile responsiveness.
 - ~Parallax effect for "Latest News" section.~ [Noy yet implemented]
