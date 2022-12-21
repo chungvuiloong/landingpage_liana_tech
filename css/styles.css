@@ -337,11 +337,11 @@ sup {
 }
 
 a {
-  color: var(--theme-liana-green-600);
+  color: var(--theme-liana-green-650);
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: var(--theme-liana-green-600);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
