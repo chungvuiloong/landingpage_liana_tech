@@ -1,6 +1,19 @@
 @charset "UTF-8";
 :root {
   --liana-green: #4C9825;
+
+  --theme-liana-green-primary: #3D8618;
+  --theme-liana-green-50: #F6FCF3;
+  --theme-liana-green-100: #EDF8E7;
+  --theme-liana-green-200: #E2F3D8;
+  --theme-liana-green-300: #D3ECC6;
+  --theme-liana-green-400: #C1E3B0;
+  --theme-liana-green-500: #97CB7C;
+  --theme-liana-green-600: #4C9825;
+  --theme-liana-green-650: #3D8618;
+  --theme-liana-green-700: #2C700A;
+  --theme-liana-green-800: #1B5200;
+  --theme-liana-green-900: #113800;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -55,7 +68,7 @@
 }
 
 .bg-liana-green {
-  background: var(--liana-green);
+  background: var(--theme-liana-green-600);
 }
 
 /*  */
