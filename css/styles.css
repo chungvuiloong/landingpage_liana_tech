@@ -4662,6 +4662,11 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+#feed_list .card:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
 .card {
   position: relative;
   display: flex;
