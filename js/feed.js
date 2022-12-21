@@ -58,7 +58,7 @@ const test = document.querySelector('#test');
             transform: translateY(-50%);
             -webkit-transform: translateY(-50%);
             ">
-                <h1 class="text-white fw-lighter lato_font text-center mb-3 container">${entry.title}</h1>
+                <h1 class="text-white fw-lighter display-4 lato_font text-center mb-3 container">${entry.title}</h1>
                 <a href="${entry.link}"  target="_blank" class="btn btn-primary text-white active  mt-3" role="button" aria-pressed="true" >Learn More</a>
             </div>
 
