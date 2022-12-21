@@ -18,10 +18,18 @@
         <script src="https://www.jsdelivr.com/package/npm/nanofeed@1/dist/nanofeed.min.js"></script>
         <script src="https://kit.fontawesome.com/e754c0d0c9.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
+  <style>
+
+  </style>
+
+
+
     <body onload="load()">
-      <main>
+      <main >
+        <!-- Navbar -->
         <nav class="py-2 border-bottom bg-liana-green">
           <div class="container d-flex flex-wrap" style="justify-content: flex-end">
             <ul class="nav">
@@ -35,6 +43,7 @@
             </ul>
           </div>
         </nav>
+
         <header class="p-4 text-bg-dark">
           <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -52,20 +61,44 @@
                   <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
                 </div>
                 <div class="col-auto">
-                  <button class="btn text-white" type="submit" style="background: var(--liana-green)">Search</button>
+                  <button class="btn btn-primary text-white" type="submit">Search</button>
                 </div>
               </form>
             </div>
           </div>
         </header>
       </main>
-        <!-- Header - set the background image for the header in the line below-->
+        <!-- Header - set the background image for the header in the line below
         <header class="py-image bg-image-full img-fluid"  style=" background-position: center; background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('https://www.lianatech.com/media/cache/janette-laptop-03-lianamailer-1920x9998,q=85.jpg');">
           <div class="container text-center my-5">
               <h1 class="text-white display-4 fw-lighter lato_font" >Software fueling digital marketing</h1>
               <button class="btn text-white my-5" type="submit" style="background: var(--liana-green)">Learn more</button>
           </div>
         </header>
+-->
+                <!-- Header - set the background image for the header in the line below-->
+                <header>
+                  <div class="mySlides py-image bg-image-full img-fluid"  style=" background-position: center; background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('https://www.lianatech.com/media/cache/janette-laptop-03-lianamailer-1920x9998,q=85.jpg');">
+                    <div class="container text-center my-5">
+                        <h1 class="text-white display-4 fw-lighter lato_font" >Software fueling digital marketing</h1>
+                        <button class="btn btn-primary text-white my-5" type="submit" >Learn more</button>
+                    </div>
+                  </div>
+                  <div class="mySlides py-image bg-image-full img-fluid"  style=" background-position: center; background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('https://www.lianatech.com/media/hero-images/cache/accounting_and_people_operations-1920x9999,q=85.jpg');">
+                      <div class="container text-center my-5">
+                          <h1 class="text-white display-4 fw-lighter lato_font" >Join Lianacrew</h1>
+                          <a href="https://www.lianatech.com/resources/careers/open-positions.html" class="btn btn-primary text-white my-5 active" role="button" aria-pressed="true" >See all open positions</a>
+                      </div>
+                  </div>
+
+                  <br>
+                  <div style="text-align:center; ">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+
+
+                </header>
 
 
         <!-- Content section-->
@@ -102,120 +135,62 @@
         </section>
 
         <!-- Statistics -->
-        <section onload="load()">
-          <div class="container">
-            <div class="row g-4 pb-6 ">
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-briefcase-fill" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div id-"0101" class="lato_font display-4">3000</div>
-                        <div class="fs-5s">Clients</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-emoji-smile" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div class="lato_font display-4">180</div>
-                        <div class="fs-5s">Employees</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-globe-americas" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div class="lato_font display-4">10000</div>
-                        <div class="fs-5s">Daily users</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div> <!-- End of Row-->
-          </div> <!-- End of container-->
-        </section>
-
-        <!-- Statistics -->
         <section>
-          <div class="container">
-            <div class="row g-4 pb-6 ">
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-briefcase-fill" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div class="lato_font display-4">3000</div>
-                        <div class="fs-5s">Clients</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+         <div class="container">
+           <div class="row g-4 pb-6 ">
+             <div class="col">
+               <div class="card_cus">
+                 <div class="h-auto">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
+                     <div class="fs-6">
+                       <i class="bi bi-briefcase-fill" style="font-size: 3rem; color: var(--liana-green);"></i>
+                     </div>
+                     <div class="ml-2">
+                       <div id="animated_number_1" class="lato_font display-4">3000</div>
+                       <div class="fs-5s">Clients</div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
 
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-emoji-smile" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div class="lato_font display-4">180</div>
-                        <div class="fs-5s">Employees</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             <div class="col">
+               <div class="card_cus">
+                 <div class="h-auto">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
+                     <div class="fs-6">
+                       <i class="bi bi-emoji-smile" style="font-size: 3rem; color: var(--liana-green);"></i>
+                     </div>
+                     <div class="ml-2">
+                       <div id="animated_number_2" class="lato_font display-4">180</div>
+                       <div class="fs-5s">Employees</div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
 
-              <div class="col">
-                <div class="card_cus">
-                  <div class="h-auto">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
-                      <div class="fs-6">
-                        <i class="bi bi-globe-americas" style="font-size: 3rem; color: var(--liana-green);"></i>
-                      </div>
-                      <div class="ml-2">
-                        <div class="lato_font display-4">10000</div>
-                        <div class="fs-5s">Daily users</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div> <!-- End of Row-->
-          </div> <!-- End of container-->
-        </section>
+             <div class="col">
+               <div class="card_cus">
+                 <div class="h-auto">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark d-flex align-items-center gap-5 justify-content-center justify-content-sm-center justify-content-md-center ">
+                     <div class="fs-6">
+                       <i class="bi bi-globe-americas" style="font-size: 3rem; color: var(--liana-green);"></i>
+                     </div>
+                     <div class="ml-2">
+                       <div id="animated_number_3"class="lato_font display-4">10000</div>
+                       <div class="fs-5s">Daily users</div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div> <!-- End of Row-->
+         </div> <!-- End of container-->
+       </section>
 
         <!-- Latest news -->
+        <!--
         <section class="py-5" style="background-color: var(--bs-gray-300)">
           <div class="container ">
             <h3 class="text-center pb-4">Latest News</h3>
@@ -244,8 +219,16 @@
                     </div>
                   </div>
                 </div>
-          </div> <!-- End of container -->
+          </div>
         </section>
+      -->
+                <!-- Latest News feed RSS-->
+                <section class="py-5" style="background-color: var(--bs-gray-300)">
+                  <div class="container ">
+                    <h3 class="text-center pb-4">Latest News</h3>
+                      <div id="feed_list" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 align-items-stretch g-4 pb-4" >
+                  </div> <!-- End of container -->
+                </section>
 
          <!-- References -->
          <section>
@@ -336,7 +319,7 @@
                     <div id="wrong_email_input"></div>
                   </div>
                   <div class="col-auto">
-                    <button class="btn text-white mx-1" id="subscribe_button" type="button" style="background: var(--liana-green)" onclick="thank_you()" >Subscribe</button>
+                    <button class="btn btn-primary text-white mx-1" id="subscribe_button" type="button" onclick="sweet()" >Subscribe</button>
                   </div>
                 </form>
               </div>
@@ -354,11 +337,6 @@
           </div>
 
         </div>
-
-
-        <!-- -->
-
-        <div id="feed">test</div>
 
         <!-- Footer-->
         <footer class="mt-2">
@@ -386,25 +364,25 @@
                     <div>Phone: +358 10 387 7053</div>
                   </div>
                   <div>
-                    <button class="btn text-white fs-6" type="submit" style="background: var(--liana-green)">Contact us</button>
+                    <button class="btn btn-primary text-white fs-6" type="submit" >Contact us</button>
                   </div>
                 </div>
                 <ul class="col-6 col-sm-6 col-md-6 nav justify-content-end">
                   <div class="d-flex align-items-end">
-                    <span class="fa-stack small ms-1" style="color: var(--liana-green);">
-                      <a href="https://www.facebook.com/LianaTechFI/"  target="_blank" style="color: var(--liana-green);">
+                    <span class="fa-stack small ms-1"">
+                      <a href="https://www.facebook.com/LianaTechFI/"  target="_blank" >
                         <i class="fa-solid fa-circle fa-stack-2x"></i>
                         <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                       </a>
                     </span>
-                    <span class="fa-stack small ms-1" style="color: var(--liana-green);">
-                      <a href="https://twitter.com/lianatech"  target="_blank" style="color: var(--liana-green);">
+                    <span class="fa-stack small ms-1"">
+                      <a href="https://twitter.com/lianatech"  target="_blank" >
                         <i class="fa-solid fa-circle fa-stack-2x"></i>
                         <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                       </a>
                     </span>
                     <span class="fa-stack small ms-1">
-                      <a href="https://fi.linkedin.com/company/liana-technologies"  target="_blank" style="color: var(--liana-green);">
+                      <a href="https://fi.linkedin.com/company/liana-technologies"  target="_blank" >
                         <i class="fa-solid fa-circle fa-stack-2x"></i>
                         <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                       </a>
@@ -418,24 +396,13 @@
 
         <!-- Bootstrap core JS-->
         <script>
-          
-          {# axios({
-            method: 'get',
-            url: 'https://cors-anywhere.herokuapp.com/https://www.lianatech.com/resources/blog.rss',
-            headers: {
-              {# 'Origin': 'https://www.lianatech.com/resources/blog.rss', #}
-              'access-control-allow-origin' : "*",
-            }
-        }).then((response) => {
-          console.log(response);
-          const titles = response.data.getElementsByTagName("title");
-          console.log(titles.values);
-        }) #}
-
-   
 
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+        <script src="js/carousal_parallax.js"></script>
+        <script src="js/animation_number.js"></script>
+        <script src="js/feed.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

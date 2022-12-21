@@ -1,6 +1,8 @@
 let url = 'https://www.lianatech.com/resources/blog.rss';
 
 const feed_list = document.querySelector('#feed_list');
+const test = document.querySelector('#test');
+
   feednami.load(url)
   .then(feed => {
     feed_list.value = ''
@@ -31,4 +33,31 @@ const feed_list = document.querySelector('#feed_list');
         `;
         feed_list.appendChild(div);
     }
+  });
+  showSlides();
+  feednami.load(url)
+  .then(feed => {
+    test.value = ''
+    for(let entry of feed.entries){
+        let div = document.createElement('div');
+        const time = entry.date;
+        const time_split = time.split("T")[0];
+
+        // Split the time into year, month & date
+        const [year, month, date] = time_split.split("-");
+
+        div.innerHTML =
+        `
+        <div class="mySlides py-image bg-image-full img-fluid" style=" background-position: center; background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('${entry.enclosures[0].url}');">
+        >
+            <div class="container text-center my-5">
+                <h1 class="text-white display-4 fw-lighter lato_font">${entry.title}</h1>
+                <a href="${entry.link}" class="btn btn-primary text-white my-5 active" role="button" aria-pressed="true" >Learn More</a>
+            </div>
+        </div>
+        `;
+        test.appendChild(div);
+        
+    }
+    
   });
