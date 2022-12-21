@@ -11,6 +11,7 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 ## Hosted/ Deployed via vercel:
 - https://lianatechnologylandingpage.vercel.app/
 
+## Description
 
 ## Technologies added:
 - email input filter => filters input that aren't email syntax. If correct email is given, input bar turns green with envy.
@@ -22,5 +23,5 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 - ~Parallax effect Main Image using "Latest News" section.~ [In process. Not yet implemented]
 
 ## Challenges faced
-- Unexpected changes to styling.
-- Parallex effect to main picture.
+- Unexpected changes to CSS styling.
+- Parallex effect to new effect.
