@@ -34,7 +34,7 @@ const test = document.querySelector('#test');
         feed_list.appendChild(div);
     }
   });
-  showSlides();
+
   feednami.load(url)
   .then(feed => {
     test.value = ''
@@ -48,16 +48,17 @@ const test = document.querySelector('#test');
 
         div.innerHTML =
         `
-        <div class="mySlides py-image bg-image-full img-fluid" style=" background-position: center; background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('${entry.enclosures[0].url}');">
+        <div class="mySlides py-image bg-image-full img-fluid" style="background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('${entry.enclosures[0].url}');">
         >
-            <div class="container text-center my-5">
-                <h1 class="text-white display-4 fw-lighter lato_font">${entry.title}</h1>
-                <a href="${entry.link}" class="btn btn-primary text-white my-5 active" role="button" aria-pressed="true" >Learn More</a>
+            <div class="container text-center">
+                <h1 class="text-white mb-2 fw-lighter lato_font">${entry.title}</h1>
+                <a href="${entry.link}" class="btn btn-primary mt-2 text-white active" role="button" aria-pressed="true" >Learn More</a>
             </div>
+
         </div>
         `;
         test.appendChild(div);
-        
     }
-    
   });
+
+  showSlides();

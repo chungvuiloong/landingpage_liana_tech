@@ -67,6 +67,10 @@
 }
 
 /*  */
+
+.height {
+  height: 45vh;
+}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
@@ -4285,9 +4289,6 @@ textarea.form-control-lg {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-nav .dropdown-menu {
-  position: static;
-}
 
 .navbar-text {
   padding-top: 0.5rem;
@@ -7774,6 +7775,11 @@ textarea.form-control-lg {
 .py-image {
   padding-top: 6rem !important;
   padding-bottom: 6rem !important;
+}
+
+.py-image-special {
+  padding-top: 7rem !important;
+  padding-bottom: 6.5rem !important;
 }
 
 .pt-0 {
@@ -11583,4 +11589,6 @@ textarea.form-control-lg {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
