@@ -48,11 +48,18 @@ const test = document.querySelector('#test');
 
         div.innerHTML =
         `
-        <div class="mySlides py-image bg-image-full img-fluid" style="background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('${entry.enclosures[0].url}');">
+        <div class="mySlides bg-image-full img-fluid" style="
+            height: 400px;
+            background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('${entry.enclosures[0].url}');">
         >
-            <div class="container text-center">
-                <h1 class="text-white mb-2 fw-lighter lato_font">${entry.title}</h1>
-                <a href="${entry.link}" class="btn btn-primary mt-2 text-white active" role="button" aria-pressed="true" >Learn More</a>
+            <div class="text-center p-auto " style="
+            position:relative;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            ">
+                <h1 class="text-white fw-lighter lato_font text-center mb-3 container">${entry.title}</h1>
+                <a href="${entry.link}" class="btn btn-primary text-white active  mt-3" role="button" aria-pressed="true" >Learn More</a>
             </div>
 
         </div>
