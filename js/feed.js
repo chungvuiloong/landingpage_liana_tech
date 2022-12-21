@@ -25,7 +25,7 @@ const test = document.querySelector('#test');
                 </div>
                 <div class="card-body">
                     <h6 class="card-subtitle my-2 mx-3 text-muted fs-6">${date}.${month}.${year}</h6>
-                    <a href="${entry.link}" class="nav-link"><div class="fs-4 text-dark" style="line-height: 1.2; text-decoration: none;">${entry.title}</div></a>
+                    <a href="${entry.link}"  target="_blank" class="nav-link"><div class="fs-4 text-dark" style="line-height: 1.2; text-decoration: none;">${entry.title}</div></a>
                     <p class="my-2 mx-3 card-text fs-5s " style="line-height: 1.2;">${(entry.summary === null ? "" : entry.summary)}</p>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const test = document.querySelector('#test');
             -webkit-transform: translateY(-50%);
             ">
                 <h1 class="text-white fw-lighter lato_font text-center mb-3 container">${entry.title}</h1>
-                <a href="${entry.link}" class="btn btn-primary text-white active  mt-3" role="button" aria-pressed="true" >Learn More</a>
+                <a href="${entry.link}"  target="_blank" class="btn btn-primary text-white active  mt-3" role="button" aria-pressed="true" >Learn More</a>
             </div>
 
         </div>
