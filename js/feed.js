@@ -34,7 +34,7 @@ const test = document.querySelector('#test');
         feed_list.appendChild(div);
     }
   });
-
+  showSlides();
   feednami.load(url)
   .then(feed => {
     test.value = ''
@@ -57,6 +57,7 @@ const test = document.querySelector('#test');
         </div>
         `;
         test.appendChild(div);
-        showSlides();
+        
     }
+    
   });
