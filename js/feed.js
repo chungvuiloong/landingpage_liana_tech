@@ -18,7 +18,7 @@ const feed_list = document.querySelector('#feed_list');
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                 <div>
                     ${entry.enclosures.length === 0 ? "" : 
-                    `<img src="${entry.enclosures[0].url}" class="img-fluid" alt="logo" style='height: 100%; width: 100%; object-fit: contain'></img>`
+                    `<img src="${entry.enclosures[0].url}" class="img-fluid border-bottom" alt="logo" style='height: 100%; width: 100%; object-fit: contain'></img>`
                     }
                 </div>
                 <div class="card-body">
