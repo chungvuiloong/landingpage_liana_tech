@@ -7,7 +7,6 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 #### 2. cd landingpage
 #### 3. open index.html 
 
-
 ## Hosted/ Deployed via vercel:
 - https://lianatechnologylandingpage.vercel.app/
 
@@ -20,8 +19,10 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 - animated numbers - Statistics number of company increments over time.
 - feed rss mapping via feednami.
 - Mobile responsiveness.
-- ~Parallax effect Main Image using "Latest News" section.~ [In process. Not yet implemented]
-
+- Parallax effect Main Image using "Latest News" section.
 ## Challenges faced
+- latest news section data stopped mapping while parallax data in the header is mapping.
 - Unexpected changes to CSS styling.
-- Parallex effect to new effect.
+- Parallex effect.
+- Header Images Alignment.
+- Reverse parallex.
