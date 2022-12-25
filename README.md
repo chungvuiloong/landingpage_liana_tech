@@ -26,3 +26,5 @@ This is a simple landing page built from HTML, CSS and Javascript for Liana Tech
 - Parallex effect.
 - Header Images Alignment.
 - Reverse parallex.
+
+![Text Image text](https://github.com/jirimicvl/landingpage/assets/sample.png?raw=true)
