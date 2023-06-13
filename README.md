@@ -1,4 +1,4 @@
-# Getting Started with landingpage (liana Technologies)
+# Getting Started with landingpage
 When I applied to Liana Technologies for internship role, I was given an entry task to create a website according to their Figma design. Using the given Figma design, this redesigned landing page for Liana Technologies was created.
 
 - **Github link** - https://github.com/jirimicvl/landingpage
