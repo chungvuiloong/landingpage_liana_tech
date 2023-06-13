@@ -1,7 +1,7 @@
 # Getting Started with landingpage
 When I applied to Liana Technologies for internship role, I was given an entry task to create a website according to their Figma design. Using the given Figma design, this redesigned landing page for Liana Technologies was created.
 
-- **Github link** - https://github.com/jirimicvl/landingpage
+- **Github link** - [https://github.com/jirimicvl/landingpage](https://github.com/jeresulovuo/landingpage_liana_tech)
 - **Project deployed** via <a href="https://lianatechnologylandingpage.vercel.app/">vercel</a> - https://lianatechnologylandingpage.vercel.app/
 
 #### **Tools & Technologies** used:
